@@ -1,0 +1,16 @@
+{
+  "name": "lumiere",
+  "version": "1.0.0",
+  "description": "A Candle website for Ana Flávia(Fra)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clerivaldo Junior",
+  "license": "MIT",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  }
+}
