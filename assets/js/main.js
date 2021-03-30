@@ -267,3 +267,8 @@
   });
 
 })()
+
+let fecharPedido = () => {
+  console.log('funfou')
+  window.open("https://api.whatsapp.com/send?phone=+55081998850371&text=Foi", '_blank');
+}

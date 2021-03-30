@@ -17,3 +17,5 @@ app.use('/', router);
 app.listen(PORT, () => {
   console.log('Servidor rodando na porta ' + PORT + ' às ' + h);
 })
+
+/* https://api.whatsapp.com/send?phone=SeuNúmero&text=SuaMensagem API para envio. Atentar para código de país (+55) */

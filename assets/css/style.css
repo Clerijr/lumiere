@@ -94,7 +94,7 @@ a:hover {
 .navbar {
   margin-bottom: -20px;
 }
-.navbar .wraper a {
+.navbar .wraper a, button {
   /* display: flex;
   align-items: center;
   justify-content: space-between; */
@@ -106,6 +106,8 @@ a:hover {
   font-size: 22px;
   /* line-height: 20px; */
   margin-left: 10px;
+  background-color: #e4e2de;
+  border: none;
 }
 
 .navbar .wraper .button {
@@ -149,15 +151,15 @@ a:hover {
   background: #A88C5D;
 }
 
-.navbar .wraper .button:nth-child(1) a {
+.navbar .wraper .button:nth-child(1) a, button {
   color: #A88C5D;
 }
 
-.navbar .wraper .button:nth-child(2) a {
+.navbar .wraper .button:nth-child(2) a, button {
   color: #A88C5D;
 }
 
-.navbar .wraper .button:nth-child(3) a {
+.navbar .wraper .button:nth-child(3) a, button {
   color: #A88C5D;
 }
 
@@ -466,6 +468,20 @@ section {
   border-radius: 6px;
   box-shadow: 2px 2px 10px gray;
   min-width: 290px
+}
+
+#catalogo .bottle select {
+  background-color: #fff;
+  color: #524452;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  transition: all 0.3s ease-out;
+
+}
+
+#catalogo .bottle select:active {
+  border: none;
 }
 
 #catalogo button {
